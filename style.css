@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+    background-image: url(./assets/fire-flames-on-black-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo{
+    margin-bottom: 25px;
+
+    margin-top: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 5px;
+
+    background-color: rgba(206, 190, 186, 0.829);
+
+    width: 400px;
+
+    margin-top: 150px;
+
+    padding: 5px 20px 5px 20px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    font-weight: 500;
+}
+
+input{
+    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: left;
+
+    border: none;
+
+    border-radius: 5px;
+}
+
+.campo{
+    padding-left: 10px;
+}
+
+button{
+
+    width: 100%;
+
+    padding: 14px;
+
+    margin-top: 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    box-shadow: 0px 20px 20px -7px rgba(0, 0, 0, 0.41);
+
+    cursor: pointer;
+
+    font-weight: 700;
+
+    background-color: firebrick;
+}
+
+button:hover{
+    background-color: rgb(228, 15, 15);
+}
+
+.resultado{
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    margin-top: 5px;
+    text-align: left;
+    
+}
+
+h3{
+    text-align: left;
+}
